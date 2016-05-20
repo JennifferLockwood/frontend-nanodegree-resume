@@ -66,13 +66,13 @@ var education = {
 		{
 			"title" : "Intro to Descriptive Statistics",
 			"school" : "Udacity",
-			"dates" : "02/2016",
+			"date" : "02/2016",
 			"url" : "https://www.udacity.com/course/intro-to-descriptive-statistics--ud827"
 		},
 		{
 			"title" : "Intro to Inferential Statistics",
 			"school" : "Udacity",
-			"dates" : "01/2016",
+			"date" : "01/2016",
 			"url" : "https://www.udacity.com/course/intro-to-inferential-statistics--ud201"
 		}
 	],
@@ -83,7 +83,7 @@ var education = {
 				var schoolName = HTMLschoolName.replace("%data%", education.schools[i].name);
 				var schoolUrl = schoolName.replace("#", education.schools[i].url);
 				var schoolDegree = HTMLschoolDegree.replace("%data%", education.schools[i].degree);
-				var schoolDates = HTMLschoolDates.replace("%data%", education.schools[i].date);
+				var schoolDates = HTMLschoolDates.replace("%data%", education.schools[i].dates);
 				var schoolLocation = HTMLschoolLocation.replace("%data%", education.schools[i].location);
 				var schoolMajor = HTMLschoolMajor.replace("%data%", education.schools[i].majors[0]);
 
@@ -101,7 +101,7 @@ var education = {
 				var classTitle = HTMLonlineTitle.replace("%data%", education.onlineCourses[i].title);
 				var courseTitle = classTitle.replace("#", education.onlineCourses[i].url);
 				var schl = HTMLonlineSchool.replace("%data%", education.onlineCourses[i].school);
-				var courseDates = HTMLonlineDates.replace("%data%", education.onlineCourses[i].dates);
+				var courseDates = HTMLonlineDates.replace("%data%", education.onlineCourses[i].date);
 				var courseUrl = HTMLonlineURL.replace("%data%", education.onlineCourses[i].url);
 				var courseUrlLink = courseUrl.replace("#", education.onlineCourses[i].url);
 
