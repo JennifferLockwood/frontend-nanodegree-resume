@@ -178,7 +178,7 @@ var projects = {
 		"dates" : "04/2016",
 		"url" : "https://github.com/JennifferLockwood",
 		"description" : "Applying what I've learned in the CSS course, I recreated a web page from a design prototype.",
-		"images" : "images/animalCard250x185px.jpg"
+		"images" : ["images/animalCard250x185px.jpg"]
 	}
 	],
 	"display" : function() {
